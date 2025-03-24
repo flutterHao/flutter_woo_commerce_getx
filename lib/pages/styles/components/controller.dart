@@ -43,3 +43,16 @@ class ComponentsController extends GetxController {
   //   super.dispose();
   // }
 }
+
+class Bird {
+  void fly() => print("Flying");
+}
+
+class Duck extends Bird {
+  @override
+  void fly() => print("Duck is flying");
+}
+
+void letBirdFly(Bird bird) {
+  bird.fly();
+}

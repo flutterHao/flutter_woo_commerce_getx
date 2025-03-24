@@ -69,7 +69,7 @@ dependencies:
   # GetX
   get: ^4.6.1
   # 日期
-  intl: ^0.17.0
+  intl: ^0.19.0
   # 底部弹出框
   modal_bottom_sheet: ^2.0.0
   # 包信息
